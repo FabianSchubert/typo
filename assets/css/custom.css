@@ -1,1 +1,20 @@
-/* Place custom css here */
+.gallery_pic {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-right: 0px;
+}
+
+.container > div {
+  text-align: left;
+  margin-right: 10px;
+}
+
+.fixed_width {
+  display: inline-block;
+  width: 150px;
+}
